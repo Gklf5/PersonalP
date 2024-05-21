@@ -1,7 +1,5 @@
 import React from "react";
-import proj1 from "../assets/proj1.png";
-import proj2 from "../assets/proj2.png";
-import proj3 from "../assets/proj3.png";
+import proj0 from "../assets/proj0.png";
 
 const Work = () => {
   return (
@@ -12,13 +10,13 @@ const Work = () => {
       </div>
       <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
         <div className="transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg shadow-[#040c16] group rounded-md flex justify-center items-center h-[200px] bg-cover relative">
-          <img src={proj1} layout="fill" objectFit="cover" alt="" />
+          <img src={proj0} layout="fill" objectFit="cover" alt="" />
         </div>
         <div className="transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg shadow-[#040c16] group rounded-md flex justify-center items-center h-[200px] bg-cover relative">
-          <img src={proj2} layout="fill" objectFit="cover" alt="" />
+          <img src={proj0} layout="fill" objectFit="cover" alt="" />
         </div>
         <div className="transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg shadow-[#040c16] group rounded-md flex justify-center items-center h-[200px] bg-cover relative">
-          <img src={proj3} layout="fill" objectFit="cover" alt="" />
+          <img src={proj0} layout="fill" objectFit="cover" alt="" />
         </div>
       </div>
     </div>
